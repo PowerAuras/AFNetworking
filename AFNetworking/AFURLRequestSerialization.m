@@ -359,7 +359,7 @@ forHTTPHeaderField:(NSString *)field
 {
     NSParameterAssert(method);
     NSParameterAssert(URLString);
-
+    NSLog(@"请求:%@",URLString);
     NSURL *url = [NSURL URLWithString:URLString];
 
     NSParameterAssert(url);
